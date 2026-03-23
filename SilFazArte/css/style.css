@@ -1,7 +1,6 @@
 body { /*Customização da área central do site*/
     margin: 0%;
-    background-color: #FE8330;
-    background-image: linear-gradient(#FE8330, #FE5F2F, white);
+    background: linear-gradient(#fe5f2f);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -66,4 +65,68 @@ nav li{
     font-weight: bold;
     letter-spacing: 2px;
     margin-bottom: 20px;
+}
+footer{
+    padding: 30px 10px 10px 0;
+    background-size: cover;
+    background-position: top;
+    background-color: rgb(0, 0, 0, 6);
+    background-blend-mode: darken;
+    background-color: #333333;
+}
+.logo_footer{
+    width: 10%;
+}
+.nossosprodutos{
+    padding: 2%;
+    background: linear-gradient(#fe5f2f);
+}
+.div_nossosprodutos{
+    width: 80%;
+    margin-left: 10%;
+}
+.lista_nossosprodutos{
+    width: 30%;
+    display: flex;
+    vertical-align: "top";
+    list-style: none;
+}
+.lista_nossosprodutos li{
+    line-height: 2;
+}
+.lista_nossosprodutos li:before{
+    content: ">>>";
+}
+.img_nossosprodutos{
+    width: 70%;
+    border-radius: 4px;
+    box-shadow: 10px 10px 5px 0px #000000;
+    opacity: 1;
+    transition: 400ms;
+}
+.img_nossosprodutos:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.mapa{
+    text-align: center;
+}
+.capa_jogo{
+    width: 50%;
+    margin: 5px;
+}
+.jogos{
+    background-color: #333333;
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+    margin-bottom: 3px;
+}
+.div_texto_jogo{
+    max-width: 600px;
+    color: #ffffff;
+    font-size: 25px;
+}
+.conteudo{
+    display: flex;
 }
